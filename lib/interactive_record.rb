@@ -53,4 +53,7 @@ class InteractiveRecord
     DB[:conn].execute(sql)
   end
 
+  def none
+  end
+
 end
